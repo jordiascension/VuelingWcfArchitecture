@@ -1,0 +1,9 @@
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\bin\Debug\netstandard2.0\Vueling.Domain.Entities.deps.json
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\bin\Debug\netstandard2.0\Vueling.Domain.Entities.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\bin\Debug\netstandard2.0\Vueling.Domain.Entities.pdb
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.AssemblyInfoInputs.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.AssemblyInfo.cs
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.pdb
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.csprojAssemblyReference.cache

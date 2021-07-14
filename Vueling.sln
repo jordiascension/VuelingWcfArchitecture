@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Distributed Web Service Layer", "1. Distributed Web Service Layer", "{EC49A347-EE9B-4CFD-87A2-9BA08F6122D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Layer", "2. Application Layer", "{2ED38265-D174-412C-B208-F32152B02C73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain Layer", "3. Domain Layer", "{DA86AD06-55DA-41D8-BA70-E1A0B51CB370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure Layer", "4. Infrastructure Layer", "{26A77CFD-EAE5-4EE1-A348-71ACE193FAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vueling.Distributed.WebServices", "Vueling.Distributed.WebServices\Vueling.Distributed.WebServices.csproj", "{8053E6F3-F86B-45E5-815D-064BEEC33191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vueling.Application.Services", "Vueling.Application.Services\Vueling.Application.Services.csproj", "{C54C57E1-9080-4F85-88D1-13B1DFBBEDCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vueling.Infrastructure.Repository", "Vueling.Infrastructure.Repository\Vueling.Infrastructure.Repository.csproj", "{EB3CC048-5132-44F3-9005-A507572E4206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vueling.Domain.Entities", "Vueling.Domain.Entities\Vueling.Domain.Entities.csproj", "{A58EDF0A-4CE6-469F-9D17-BA1DEDC4DAA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vueling.Infrastructure.Repository.Unit.Tests", "Vueling.Infrastructure.Repository.Unit.Tests\Vueling.Infrastructure.Repository.Unit.Tests.csproj", "{AF008B41-34EF-4711-B053-4346E39C1C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vueling.Infrastructure.Repository.Integration.Tests", "Vueling.Infrastructure.Repository.Integration.Tests\Vueling.Infrastructure.Repository.Integration.Tests.csproj", "{05EC0DCE-D72D-45A2-98F3-94A88A553575}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8053E6F3-F86B-45E5-815D-064BEEC33191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8053E6F3-F86B-45E5-815D-064BEEC33191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8053E6F3-F86B-45E5-815D-064BEEC33191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8053E6F3-F86B-45E5-815D-064BEEC33191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54C57E1-9080-4F85-88D1-13B1DFBBEDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54C57E1-9080-4F85-88D1-13B1DFBBEDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54C57E1-9080-4F85-88D1-13B1DFBBEDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54C57E1-9080-4F85-88D1-13B1DFBBEDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3CC048-5132-44F3-9005-A507572E4206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3CC048-5132-44F3-9005-A507572E4206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3CC048-5132-44F3-9005-A507572E4206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3CC048-5132-44F3-9005-A507572E4206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58EDF0A-4CE6-469F-9D17-BA1DEDC4DAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58EDF0A-4CE6-469F-9D17-BA1DEDC4DAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58EDF0A-4CE6-469F-9D17-BA1DEDC4DAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58EDF0A-4CE6-469F-9D17-BA1DEDC4DAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF008B41-34EF-4711-B053-4346E39C1C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF008B41-34EF-4711-B053-4346E39C1C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF008B41-34EF-4711-B053-4346E39C1C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF008B41-34EF-4711-B053-4346E39C1C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EC0DCE-D72D-45A2-98F3-94A88A553575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EC0DCE-D72D-45A2-98F3-94A88A553575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EC0DCE-D72D-45A2-98F3-94A88A553575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EC0DCE-D72D-45A2-98F3-94A88A553575}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8053E6F3-F86B-45E5-815D-064BEEC33191} = {EC49A347-EE9B-4CFD-87A2-9BA08F6122D9}
+		{C54C57E1-9080-4F85-88D1-13B1DFBBEDCD} = {2ED38265-D174-412C-B208-F32152B02C73}
+		{EB3CC048-5132-44F3-9005-A507572E4206} = {26A77CFD-EAE5-4EE1-A348-71ACE193FAFD}
+		{A58EDF0A-4CE6-469F-9D17-BA1DEDC4DAA5} = {DA86AD06-55DA-41D8-BA70-E1A0B51CB370}
+		{AF008B41-34EF-4711-B053-4346E39C1C94} = {26A77CFD-EAE5-4EE1-A348-71ACE193FAFD}
+		{05EC0DCE-D72D-45A2-98F3-94A88A553575} = {26A77CFD-EAE5-4EE1-A348-71ACE193FAFD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B3E46BA-9F5B-4374-BD3B-253F76171E07}
+	EndGlobalSection
+EndGlobal

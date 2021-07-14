@@ -1,0 +1,14 @@
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\bin\Debug\netstandard2.0\Vueling.Application.Services.deps.json
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\bin\Debug\netstandard2.0\Vueling.Application.Services.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\bin\Debug\netstandard2.0\Vueling.Application.Services.pdb
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\bin\Debug\netstandard2.0\Vueling.Infrastructure.Repository.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\bin\Debug\netstandard2.0\Vueling.Infrastructure.Repository.pdb
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\obj\Debug\netstandard2.0\Vueling.Application.Services.csprojAssemblyReference.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\obj\Debug\netstandard2.0\Vueling.Application.Services.AssemblyInfoInputs.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\obj\Debug\netstandard2.0\Vueling.Application.Services.AssemblyInfo.cs
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\obj\Debug\netstandard2.0\Vueling.Application.Services.csproj.CoreCompileInputs.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\obj\Debug\netstandard2.0\Vueling.Application.Services.csproj.CopyComplete
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\obj\Debug\netstandard2.0\Vueling.Application.Services.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\obj\Debug\netstandard2.0\Vueling.Application.Services.pdb
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\bin\Debug\netstandard2.0\Vueling.Domain.Entities.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Application.Services\bin\Debug\netstandard2.0\Vueling.Domain.Entities.pdb
