@@ -98,3 +98,9 @@ C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Integration.Tests.dll
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Integration.Tests.pdb
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Integration.Tests.genruntimeconfig.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\bin\Debug\netcoreapp3.1\Autofac.log4net.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Integration.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

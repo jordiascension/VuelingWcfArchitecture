@@ -15,7 +15,8 @@ namespace Vueling.Application.Services
 
         public Student Add(Student model)
         {
-            throw new System.NotImplementedException();
+            return _studentRepository.Add(model);
+
         }
     }
 }

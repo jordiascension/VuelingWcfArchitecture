@@ -14,6 +14,7 @@ namespace Vueling.Application.Services.AutofacModules
                 .RegisterType<StudentRepository>()
                 .As<IStudentRepository<Student>>().InstancePerDependency();
 
+
             base.Load(builder);
         }
     }

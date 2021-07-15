@@ -25,10 +25,14 @@ C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.We
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\Vueling.Infrastructure.Repository.pdb
-C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\obj\Debug\Vueling.Distributed.WebServices.csprojAssemblyReference.cache
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\obj\Debug\Vueling.Distributed.WebServices.csproj.CoreCompileInputs.cache
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\obj\Debug\Vueling.Distributed.WebServices.csproj.CopyComplete
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\obj\Debug\Vueling.Distributed.WebServices.dll
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\obj\Debug\Vueling.Distributed.WebServices.pdb
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\Vueling.Domain.Entities.dll
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\Vueling.Domain.Entities.pdb
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\log4net.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\log4net.xml
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\Autofac.log4net.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\bin\Autofac.log4net.pdb
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Distributed.WebServices\obj\Debug\Vueling.Distributed.WebServices.csproj.AssemblyReference.cache

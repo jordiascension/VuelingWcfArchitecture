@@ -93,7 +93,6 @@ C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.dll
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\Vueling.Domain.Entities.pdb
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.pdb
-C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.csprojAssemblyReference.cache
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.AssemblyInfoInputs.cache
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.AssemblyInfo.cs
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.csproj.CoreCompileInputs.cache
@@ -101,3 +100,10 @@ C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.dll
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.pdb
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.genruntimeconfig.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\Autofac.log4net.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository.Unit.Tests\obj\Debug\netcoreapp3.1\Vueling.Infrastructure.Repository.Unit.Tests.csproj.AssemblyReference.cache

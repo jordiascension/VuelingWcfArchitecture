@@ -1,4 +1,8 @@
-﻿using System;
+﻿using log4net;
+
+using System;
+using System.IO;
+using System.ServiceModel;
 
 using Vueling.Application.Services.Contracts;
 using Vueling.Distributed.WebServices.Contracts;
@@ -12,18 +16,37 @@ namespace Vueling.Distributed.WebServices
     {
         private readonly IStudentAppService<Student> _studentAppService;
 
+        private readonly ILog _log;
+
         public StudentWebService()
         {
 
         }
 
-        public StudentWebService(IStudentAppService<Student> studentAppService)
+
+
+        public StudentWebService(IStudentAppService<Student> studentAppService, ILog Log)
         {
+
             this._studentAppService = studentAppService;
+            this._log = Log;
         }
 
         public string GetData(int value)
         {
+            _log.Error("erqwerqwreq");
+
+            //https://www.c-sharpcorner.com/UploadFile/00a8b7/exception-handling-in-wcf-service/
+            try
+            {
+                _studentAppService.Add(null);
+            }
+            catch (FileNotFoundException Ex)
+            {
+                _log.Error("El mensaje de error es: " + Ex.Message);
+                throw new FaultException(Ex.ToString());
+            }
+
             return string.Format("You entered: {0}", value);
         }
 

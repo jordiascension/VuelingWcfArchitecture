@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.log4net" Version="6.0.1" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Vueling.Domain.Entities\Vueling.Domain.Entities.csproj" />
   </ItemGroup>
 

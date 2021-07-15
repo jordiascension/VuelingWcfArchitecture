@@ -8,5 +8,5 @@ C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository\obj\Debug\netstandard2.0\Vueling.Infrastructure.Repository.pdb
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository\bin\Debug\netstandard2.0\Vueling.Domain.Entities.dll
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository\bin\Debug\netstandard2.0\Vueling.Domain.Entities.pdb
-C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository\obj\Debug\netstandard2.0\Vueling.Infrastructure.Repository.csprojAssemblyReference.cache
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository\obj\Debug\netstandard2.0\Vueling.Infrastructure.Repository.csproj.CopyComplete
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Infrastructure.Repository\obj\Debug\netstandard2.0\Vueling.Infrastructure.Repository.csproj.AssemblyReference.cache

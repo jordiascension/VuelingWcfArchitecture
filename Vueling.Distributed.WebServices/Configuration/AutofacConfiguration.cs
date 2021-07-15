@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Autofac.log4net;
 
 using Vueling.Application.Services;
 using Vueling.Application.Services.AutofacModules;
@@ -16,7 +17,7 @@ namespace Vueling.Distributed.WebServices.Configuration
             var builder = new ContainerBuilder();
 
             builder.RegisterModule(new ApplicationModule());
-
+            builder.RegisterModule<Log4NetModule>();
             // register types
             builder.RegisterType<StudentWebService>().As<IStudentWebService>().InstancePerDependency();
             builder.RegisterType<StudentAppService>().As<IStudentAppService<Student>>().InstancePerDependency();

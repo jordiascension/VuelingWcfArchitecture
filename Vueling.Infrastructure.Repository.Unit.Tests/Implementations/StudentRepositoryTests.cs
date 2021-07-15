@@ -19,7 +19,8 @@ namespace Vueling.Infrastructure.Repository.Unit.Tests
                 Student student = new Student
                 {
                     Name = "Pepe",
-                    Surname = "Soto"
+                    Surname = "Soto",
+                    StudentId = 1
 
                 };
 

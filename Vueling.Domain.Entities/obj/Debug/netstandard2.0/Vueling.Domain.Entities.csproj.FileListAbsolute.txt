@@ -6,4 +6,4 @@ C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entitie
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.csproj.CoreCompileInputs.cache
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.dll
 C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.pdb
-C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.csprojAssemblyReference.cache
+C:\Users\jordi\source\repos\University8WcfService\Vueling\Vueling.Domain.Entities\obj\Debug\netstandard2.0\Vueling.Domain.Entities.csproj.AssemblyReference.cache

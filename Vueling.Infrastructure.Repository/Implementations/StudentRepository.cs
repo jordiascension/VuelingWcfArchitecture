@@ -1,12 +1,21 @@
-﻿using System;
+﻿
+using System;
 
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
 
 namespace Vueling.Infrastructure.Repository
 {
+
     public class StudentRepository : IStudentRepository<Student>
     {
+
+        public StudentRepository()
+        {
+
+        }
+
+
         public Student Add(Student model)
         {
             throw new NotImplementedException();
