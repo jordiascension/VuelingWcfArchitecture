@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Distributed Web Service Layer", "1. Distributed Web Service Layer", "{EC49A347-EE9B-4CFD-87A2-9BA08F6122D9}"
 EndProject
@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vueling.Domain.Entities", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vueling.Infrastructure.Repository.Unit.Tests", "Vueling.Infrastructure.Repository.Unit.Tests\Vueling.Infrastructure.Repository.Unit.Tests.csproj", "{AF008B41-34EF-4711-B053-4346E39C1C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vueling.Infrastructure.Repository.Integration.Tests", "Vueling.Infrastructure.Repository.Integration.Tests\Vueling.Infrastructure.Repository.Integration.Tests.csproj", "{05EC0DCE-D72D-45A2-98F3-94A88A553575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vueling.Infrastructure.Repository.Integration.Tests", "Vueling.Infrastructure.Repository.Integration.Tests\Vueling.Infrastructure.Repository.Integration.Tests.csproj", "{05EC0DCE-D72D-45A2-98F3-94A88A553575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +66,7 @@ Global
 		{05EC0DCE-D72D-45A2-98F3-94A88A553575} = {26A77CFD-EAE5-4EE1-A348-71ACE193FAFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Validation.6.0.1304.0\lib\NET45
 		SolutionGuid = {0B3E46BA-9F5B-4374-BD3B-253F76171E07}
 	EndGlobalSection
 EndGlobal

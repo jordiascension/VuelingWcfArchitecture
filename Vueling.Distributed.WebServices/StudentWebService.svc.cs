@@ -1,8 +1,11 @@
 ﻿using log4net;
 
+using Microsoft.Practices.EnterpriseLibrary.Validation.Validators;
+
 using System;
 using System.IO;
 using System.ServiceModel;
+using System.Threading.Tasks;
 
 using Vueling.Application.Services.Contracts;
 using Vueling.Distributed.WebServices.Contracts;
@@ -32,7 +35,17 @@ namespace Vueling.Distributed.WebServices
             this._log = Log;
         }
 
-        public string GetData(int value)
+        public async Task<string> ConcatStrings([NotNullValidator(MessageTemplate = "name is null")] string name, [NotNullValidator(MessageTemplate = "surname is null")] string surname)
+        {
+            string result;
+
+            result = name + " " + surname;
+
+            return await Task.FromResult(result);
+        }
+
+        public string GetData([RangeValidator(1, RangeBoundaryType.Inclusive, 1, RangeBoundaryType.Ignore, MessageTemplate = "0 value found")] int value, 
+                              [NotNullValidator(MessageTemplate = "Null value found")] String value1)
         {
             _log.Error("erqwerqwreq");
 
@@ -47,7 +60,8 @@ namespace Vueling.Distributed.WebServices
                 throw new FaultException(Ex.ToString());
             }
 
-            return string.Format("You entered: {0}", value);
+            return string.Format("You entered: {0},{1}", value, value1);
+
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)

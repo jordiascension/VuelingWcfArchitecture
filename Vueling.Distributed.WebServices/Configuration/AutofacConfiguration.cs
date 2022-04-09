@@ -19,8 +19,10 @@ namespace Vueling.Distributed.WebServices.Configuration
             builder.RegisterModule(new ApplicationModule());
             builder.RegisterModule<Log4NetModule>();
             // register types
-            builder.RegisterType<StudentWebService>().As<IStudentWebService>().InstancePerDependency();
-            builder.RegisterType<StudentAppService>().As<IStudentAppService<Student>>().InstancePerDependency();
+            builder.RegisterType<StudentWebService>().
+                As<IStudentWebService>().InstancePerDependency();
+            builder.RegisterType<StudentAppService>().
+                As<IStudentAppService<Student>>().InstancePerDependency();
 
             // build container
             return builder.Build();

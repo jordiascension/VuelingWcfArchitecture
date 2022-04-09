@@ -1,20 +1,33 @@
 ﻿using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.Threading.Tasks;
+
+using CustomValidations;
+
+using Microsoft.Practices.EnterpriseLibrary.Validation.Validators;
 
 namespace Vueling.Distributed.WebServices.Contracts
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IService1" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
+    [ValidationBehavior]
     public interface IStudentWebService
     {
 
         [OperationContract]
-        string GetData(int value);
+        [FaultContract(typeof(ValidationFault))]
+        string GetData([RangeValidator(1, RangeBoundaryType.Inclusive,1,RangeBoundaryType.Ignore)] int value,
+            [NotNullValidator(MessageTemplate = "Null value found")] string value1);
+
+        [OperationContract]
+        [FaultContract(typeof(ValidationFault))]
+        Task<string> ConcatStrings([NotNullValidator(MessageTemplate = "name is null")] string name,
+            [NotNullValidator(MessageTemplate = "surname is null")] string surname);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
-
+       
     }
 
 

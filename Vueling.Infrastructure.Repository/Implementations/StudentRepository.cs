@@ -18,7 +18,8 @@ namespace Vueling.Infrastructure.Repository
 
         public Student Add(Student model)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return null;
         }
     }
 }
