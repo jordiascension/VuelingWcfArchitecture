@@ -6,6 +6,8 @@ using CustomValidations;
 
 using Microsoft.Practices.EnterpriseLibrary.Validation.Validators;
 
+using Vueling.Distributed.WebServices.Model;
+
 namespace Vueling.Distributed.WebServices.Contracts
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IService1" en el código y en el archivo de configuración a la vez.
@@ -27,7 +29,11 @@ namespace Vueling.Distributed.WebServices.Contracts
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
-       
+        [OperationContract]
+        [FaultContract(typeof(ValidationFault))]
+        User Add(User user);
+
+
     }
 
 

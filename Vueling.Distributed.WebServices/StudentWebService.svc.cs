@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 using Vueling.Application.Services.Contracts;
 using Vueling.Distributed.WebServices.Contracts;
+using Vueling.Distributed.WebServices.Model;
 using Vueling.Domain.Entities;
 
 namespace Vueling.Distributed.WebServices
@@ -35,6 +36,11 @@ namespace Vueling.Distributed.WebServices
             this._log = Log;
         }
 
+        public User Add(User user)
+        {
+            return user;
+        }
+
         public async Task<string> ConcatStrings([NotNullValidator(MessageTemplate = "name is null")] string name, [NotNullValidator(MessageTemplate = "surname is null")] string surname)
         {
             string result;
@@ -52,7 +58,11 @@ namespace Vueling.Distributed.WebServices
             //https://www.c-sharpcorner.com/UploadFile/00a8b7/exception-handling-in-wcf-service/
             try
             {
-                _studentAppService.Add(null);
+                Student student = new Student();
+                student.Name = "Pepe";
+                student.Surname = "Soto";
+                student.StudentId = 1;
+                _studentAppService.Add(student);
             }
             catch (FileNotFoundException Ex)
             {

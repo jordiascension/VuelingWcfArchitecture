@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Autofac.log4net;
 
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository;
@@ -13,7 +14,8 @@ namespace Vueling.Application.Services.AutofacModules
             builder
                 .RegisterType<StudentRepository>()
                 .As<IStudentRepository<Student>>().InstancePerDependency();
-
+            
+            builder.RegisterModule<Log4NetModule>();
 
             base.Load(builder);
         }
