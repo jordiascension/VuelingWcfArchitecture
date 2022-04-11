@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Vueling.Infrastructure.Repository.Implementations
+namespace Vueling.Infrastructure.Repository.Contracts
 {
     public interface IRepository
     {

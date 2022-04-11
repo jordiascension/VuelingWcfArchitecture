@@ -4,6 +4,7 @@ using System.Text;
 
 using Vueling.Application.Services.Contracts;
 using Vueling.Domain.Entities;
+using Vueling.Infrastructure.Repository.Contracts;
 using Vueling.Infrastructure.Repository.Implementations;
 namespace Vueling.Application.Services.Implementations
 {
