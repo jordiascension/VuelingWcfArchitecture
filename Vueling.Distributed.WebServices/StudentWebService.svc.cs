@@ -8,6 +8,7 @@ using System.ServiceModel;
 using System.Threading.Tasks;
 
 using Vueling.Application.Services.Contracts;
+using Vueling.Application.Services.Implementations;
 using Vueling.Distributed.WebServices.Contracts;
 using Vueling.Distributed.WebServices.Model;
 using Vueling.Domain.Entities;
@@ -20,6 +21,9 @@ namespace Vueling.Distributed.WebServices
     {
         private readonly IStudentAppService<Student> _studentAppService;
 
+
+        private readonly StudentAppService2 _studentAppService2;
+
         private readonly ILog _log;
 
         public StudentWebService()
@@ -29,11 +33,13 @@ namespace Vueling.Distributed.WebServices
 
 
 
-        public StudentWebService(IStudentAppService<Student> studentAppService, ILog Log)
+        public StudentWebService(IStudentAppService<Student> studentAppService, 
+            ILog Log, StudentAppService2 studentAppService2)
         {
 
             this._studentAppService = studentAppService;
             this._log = Log;
+            this._studentAppService2 = studentAppService2;
         }
 
         public User Add(User user)
@@ -58,6 +64,7 @@ namespace Vueling.Distributed.WebServices
             //https://www.c-sharpcorner.com/UploadFile/00a8b7/exception-handling-in-wcf-service/
             try
             {
+                this._studentAppService2.GetData();
                 Student student = new Student();
                 student.Name = "Pepe";
                 student.Surname = "Soto";

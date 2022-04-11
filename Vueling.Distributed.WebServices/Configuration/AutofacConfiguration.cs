@@ -4,6 +4,7 @@ using Autofac.log4net;
 using Vueling.Application.Services;
 using Vueling.Application.Services.AutofacModules;
 using Vueling.Application.Services.Contracts;
+using Vueling.Application.Services.Implementations;
 using Vueling.Distributed.WebServices.Contracts;
 using Vueling.Domain.Entities;
 
@@ -23,6 +24,7 @@ namespace Vueling.Distributed.WebServices.Configuration
                 As<IStudentWebService>().InstancePerDependency();
             builder.RegisterType<StudentAppService>().
                 As<IStudentAppService<Student>>().InstancePerDependency();
+            builder.RegisterType<StudentAppService2>().InstancePerDependency();
 
             // build container
             return builder.Build();
