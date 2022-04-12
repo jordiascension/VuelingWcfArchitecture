@@ -12,6 +12,8 @@ using Vueling.Application.Services.Implementations;
 using Vueling.Distributed.WebServices.Contracts;
 using Vueling.Distributed.WebServices.Model;
 using Vueling.Domain.Entities;
+using Vueling.CrossCutting.Resources;
+using System.Resources;
 
 namespace Vueling.Distributed.WebServices
 {
@@ -25,6 +27,8 @@ namespace Vueling.Distributed.WebServices
         private readonly StudentAppService2 _studentAppService2;
 
         private readonly ILog _log;
+
+        private const string NameNullValue = "Value is null";
 
         public StudentWebService()
         {
@@ -57,9 +61,11 @@ namespace Vueling.Distributed.WebServices
         }
 
         public string GetData([RangeValidator(1, RangeBoundaryType.Inclusive, 1, RangeBoundaryType.Ignore, MessageTemplate = "0 value found")] int value, 
-                              [NotNullValidator(MessageTemplate = "Null value found")] String value1)
+                              [NotNullValidator(MessageTemplate = NameNullValue)] String value1)
         {
-            _log.Error("erqwerqwreq");
+           
+            
+            _log.Error(MessageResource.ErrorGetData);
 
             //https://www.c-sharpcorner.com/UploadFile/00a8b7/exception-handling-in-wcf-service/
             try

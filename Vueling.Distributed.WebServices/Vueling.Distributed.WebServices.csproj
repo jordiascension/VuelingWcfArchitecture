@@ -151,10 +151,17 @@
       <Project>{c54c57e1-9080-4f85-88d1-13b1dfbbedcd}</Project>
       <Name>Vueling.Application.Services</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Vueling.CrossCutting.Resources\Vueling.CrossCutting.Resources.csproj">
+      <Project>{f59efe4c-f13b-41ae-86a8-08fdb1b9c0f5}</Project>
+      <Name>Vueling.CrossCutting.Resources</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Vueling.Domain.Entities\Vueling.Domain.Entities.csproj">
       <Project>{a58edf0a-4ce6-469f-9d17-ba1dedc4daa5}</Project>
       <Name>Vueling.Domain.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
