@@ -1,5 +1,7 @@
 ﻿using log4net;
 
+using System;
+
 using Vueling.Application.Services.Contracts;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
@@ -21,6 +23,8 @@ namespace Vueling.Application.Services
 
         public Student Add(Student model)
         {
+            if (model == null)
+                throw new ArgumentNullException("model");
             _log.Info("StudentAppService Add method called");
             _log.Info("Student object: " + model.ToString());
             return _studentRepository.Add(model);

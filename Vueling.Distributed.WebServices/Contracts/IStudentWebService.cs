@@ -6,6 +6,7 @@ using CustomValidations;
 
 using Microsoft.Practices.EnterpriseLibrary.Validation.Validators;
 
+using Vueling.Distributed.WebServices.Errors;
 using Vueling.Distributed.WebServices.Model;
 
 namespace Vueling.Distributed.WebServices.Contracts

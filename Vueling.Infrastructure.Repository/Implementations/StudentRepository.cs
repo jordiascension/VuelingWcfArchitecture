@@ -23,7 +23,10 @@ namespace Vueling.Infrastructure.Repository
 
         public Student Add(Student model)
         {
+            if(model == null)
+                throw new ArgumentNullException("model");
             _log.Info("Add method Executed");
+            _log.Debug("The student is " + model);
             //throw new NotImplementedException();
             return null;
         }

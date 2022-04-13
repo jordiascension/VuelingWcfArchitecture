@@ -14,11 +14,13 @@ using Vueling.Distributed.WebServices.Model;
 using Vueling.Domain.Entities;
 using Vueling.CrossCutting.Resources;
 using System.Resources;
+using Vueling.Distributed.WebServices.Errors;
 
 namespace Vueling.Distributed.WebServices
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código, en svc y en el archivo de configuración.
     // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
+    [GlobalErrorBehaviorAttribute(typeof(GlobalErrorHandler))]
     public class StudentWebService : IStudentWebService
     {
         private readonly IStudentAppService<Student> _studentAppService;
@@ -63,8 +65,8 @@ namespace Vueling.Distributed.WebServices
         public string GetData([RangeValidator(1, RangeBoundaryType.Inclusive, 1, RangeBoundaryType.Ignore, MessageTemplate = "0 value found")] int value, 
                               [NotNullValidator(MessageTemplate = NameNullValue)] String value1)
         {
-           
-            
+            throw new NotImplementedException();
+
             _log.Error(MessageResource.ErrorGetData);
 
             //https://www.c-sharpcorner.com/UploadFile/00a8b7/exception-handling-in-wcf-service/
