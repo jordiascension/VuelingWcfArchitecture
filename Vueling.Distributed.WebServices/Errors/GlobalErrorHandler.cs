@@ -24,9 +24,11 @@ namespace Vueling.Distributed.WebServices.Errors
         public bool HandleError(Exception error)
         {
             _log.Error(string.Format(@"Exception caught at Service Application 
-                                GlobalErrorHandler{0}Method: {1}{2}Message: {3}",
+                                GlobalErrorHandler{0}Method: {1}{2}Message: {3} 
+                                StackTrace {4}{5}",
                 Environment.NewLine, error.TargetSite.Name,
-                Environment.NewLine, error.Message));
+                Environment.NewLine, error.Message,
+                Environment.NewLine, error.StackTrace));
             return true;
         }
 
